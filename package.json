@@ -2,9 +2,5 @@
   "name": "react-learning",
   "lockfileVersion": 3,
   "requires": true,
-  "packages": {
-    "": {
-      "name": "react-learning"
-    }
-  }
+  "packages": {}
 }
