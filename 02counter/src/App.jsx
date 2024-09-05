@@ -11,7 +11,7 @@ function App() {
   
    const addValue = () => {
     
-  setcounter(counter +1)
+  setcounter(counter +1) //iska multiple duplicate banaenge to kya hoga
  }
    
 
@@ -45,3 +45,6 @@ export default App
 // yaha par ek jagah par change likhkar pure jagah  show kar skte hain
 
 // hw positive -20 negative-0
+
+//interview question added jab aap prev counter +1 kar dete hain to jitni bar value increase krte hain utni bar wah value badh jata hain.
+
