@@ -14,13 +14,12 @@ function Todos() {
         <div>Todos</div>
         <ul className='list-none'>
         {todos.map((todo) => (
-          <li  key={todo.id}>
+          <li className="mt-4 flex justify-between items-center bg-zinc=800 px-4 py-2 rounded"key={todo.id}>
            <button onClick={()=> dispatch(removeTodo(todo.id))}>X</button> 
           </li>
         ))}
         </ul>
-     
-        </>
+      </>
     )
 
 }
