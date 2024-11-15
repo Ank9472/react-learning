@@ -11,7 +11,7 @@ import AddPost from './Pages/AddPost.jsx';
 import Signup from './Pages/Signup.jsx';
 import EditPost from './Pages/EditPost.jsx';
 import Post from './Post.jsx'; // Ensure this path is correct
-import AllPosts from './AllPost';
+import AllPosts from './AllPosts'; // Ensure this path is correct
 
 const router = createBrowserRouter([
   {
@@ -75,5 +75,5 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Provider store={store}>
       <RouterProvider router={router} />
     </Provider>
-  </React.StrictMode>,
+  </React.StrictMode>
 );
